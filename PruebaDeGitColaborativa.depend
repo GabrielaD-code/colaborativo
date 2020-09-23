@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1600896879 source:c:\users\polo\documents\docs de gaby\curso de git\prueba-git-colaborativa\main.c
+	<stdio.h>
+	<stdlib.h>
+
