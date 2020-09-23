@@ -19,7 +19,7 @@ int main(){
     }while((numeroUno<0)||(numeroDos<0)||(numeroUno>5)||(numeroDos>5));
     resultado = sumar(numeroUno,numeroDos);
     printf("El resultado de %d + %d es: %d.\n",numeroUno,numeroDos,resultado);
-    //resultado = factorial(numeroUno);
+    resultado = factorial(numeroUno);
     printf("El factorial de %d es: %d.\n",numeroUno,resultado);
     return 0;
 }
@@ -27,3 +27,14 @@ int main(){
 int sumar(int a, int b){
     return a + b;
 }
+
+int factorial(int a){
+    int res=1;
+    if (a=0){res=1;}
+    while(a>0){
+        res*=a;
+        a--;
+    }
+    return res;
+}
+

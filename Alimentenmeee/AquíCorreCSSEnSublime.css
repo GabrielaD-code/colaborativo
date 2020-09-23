@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*CSS Document*/
+/*Inicio del Receteo*/
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+table { border-collapse: collapse; border-spacing: 0; }
+td, th, caption { font-weight: normal; text-align: left; }
+img, fieldset { border: 0; }
+ol { padding-left: 1.4em; list-style: decimal; }
+ul { padding-left: 1.4em; list-style:square; }
+q:before, q:after { content:''; }
+
+/*Fin del Receteo*/
+
+body{
+	font-size: 62.5%;
+	background-color:#F2F2F2/*azul claro*/;
+}
+
+h1{
+	font:normal 2.4em/*escala*/ Verdana,Geneva,sans-serif;
+	background: -webkit-linear-gradient(top,#0489B1,#0CF);
+	width: 35%;
+	border-radius: 10px;
+	margin:15px auto;
+	text-align: center;
+	padding: 15px;
+	color: #FFF;
+	box-shadow:#045FB4 5px 5px 10px;
+	text-shadow: #58ACFA 2px 2px 2px;
+}
+h2{
+	font:normal 1.7em/*escala*/ Verdana,Geneva,sans-serif;
+	margin:0;
+	padding: 5px 0 5px 50px;
+	color: #08298A;
+}
+
+section{
+	width: 90%;
+	border-top: 1px dashed #999;
+	margin:15px auto;
+}
+
+figure{
+	float:left;
+	width:110px;/*Le puse esto para que se vean centradas las imágenes*/
+}
+figure img/*etiqueta hija*/{
+	padding:2px;
+	background: gray;
+	border-radius: 50px;
+	margin: center;
+	-webkit-transtion:-webkit-transform 0.3s ease 0.1s;
+	box-shadow: #BDBDBD 2px 2px 3px;
+}
+figure img:hover{
+	-webkit-transform:scale(2.2);
+}
+
+figcaption{
+	font-family: Arial, Helvetics,sans-serif;
+	font-size:1.3em;
+	text-align: center;
+	color: #045FB4;
+	margin-top: 5px;
+}
+
+footer{
+	clear: both;
+	padding-top:
+}
+
+footer p{
+	font:1.6em Georgia, "Times New Roman", Times,serif;
+	color: gray;
+	margin:10px 8px;
+}
