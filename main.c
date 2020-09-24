@@ -21,6 +21,7 @@ int main(){
     printf("El resultado de %d + %d es: %d.\n",numeroUno,numeroDos,resultado);
     resultado = factorial(numeroUno);
     printf("El factorial de %d es: %d.\n",numeroUno,resultado);
+    printf("Se supone que ya deberíamos pushear.\n");
     return 0;
 }
 
